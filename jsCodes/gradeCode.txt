@@ -1,0 +1,31 @@
+const marks=[100,90,10];
+
+
+function grade(marks){
+const calculate=averagg(marks);
+
+if(average<60) console.log('f');
+if(average<70) return 'd';
+if(average<80) return 'c';
+if(average<90) return  'b';
+if(average<100) return 'a';
+else 
+
+return 'chutya'
+}
+
+
+function averagg(marks){    
+let sum=0;
+
+for(let i of marks)
+sum+=i;
+
+return average=sum/marks.length;
+}
+
+console.log(grade(marks));
+
+
+
+

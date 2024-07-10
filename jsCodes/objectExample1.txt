@@ -1,0 +1,11 @@
+let address={
+   street:'5c',
+   city:'Gujranwala',
+   zipcode: 5220,
+};
+
+  function showAdres(address){
+     for(let key in address)
+     console.log(key+':' , address[key]);
+   }
+showAdres(address);

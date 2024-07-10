@@ -1,0 +1,14 @@
+showStars(5);
+
+function showStars(num){
+    let count="";
+    
+    for(let i=1; i<=num ; i++){
+     for(let j=0; j<i ; j++){
+    count+="*";
+    }
+    count+="\n";
+}
+
+console.log(count);
+}
